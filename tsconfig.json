@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "types": ["cypress", "node"],
     "lib": [
+      "es5",
       "dom",
       "dom.iterable",
       "esnext"
@@ -21,6 +23,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "**/*.ts"
   ]
 }
